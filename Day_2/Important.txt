@@ -1,0 +1,62 @@
+Today We will ne discussing about : 
+
+    1. output
+    2. Variables
+    3. Data Types
+    4. Input
+
+1. Outputs : 
+    for output there are 2 functions in default library : 
+        1. System.out.print("Something Printed!....");    // output will be printed but without a next line . 
+        2. System.out.println("Somehting Printed!....");  // output will be printed with a next line . 
+
+    Otherwise for next line we can use "\n" character where we want to start the next line . 
+
+        example: System.out.print("Hello World \nBaibhab Karmakar");
+            output : 
+            Hello World
+            Baibhab Karmakar
+
+2. Variables : 
+
+    int a = 25 , b = 10;
+    String name = "Tony Stark";
+    perimeter = 2 * (a + b) ;
+
+Java is a typed Language . (Means you have to declare the datatype of variable while declaring the variable)
+
+3. DataTypes : 
+
+Mainly DataTypes are of 2 types : 
+    1. Primitive DataTypes (Pre declared dataTypes)
+    2. Non-Primitive DataTypes . (These can be customised , made)
+
+    1. Primitive DataTypes : 
+        1. int    ---> 4 bytes
+        2. float  ---> 4 bytes
+        3. boolean --> 1 byte
+        4. double ---> 8 bytes
+        5. long   ---> 8 bytes 
+        6. byte   ---> 1 byte
+        7. short  ---> 2 bytes
+        8. char   ---> 2 bytes 
+
+    2. Non-primitive dataTypes : 
+        1. String
+        2. Array
+        3. Class
+        4. Object
+        5. Interface
+
+        We will see about these things later . 
+
+4. Input : 
+    We take input with the help of "Scanner" class . 
+    for that we have to import "Scanner" class in Java . 
+    import java.util.*;    // this means all the classes tha included in "util" package has been imported !
+
+    example : 
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();   // the input will be integer and it will be assinged to the variable "a". 
+
+    
