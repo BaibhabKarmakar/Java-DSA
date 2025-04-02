@@ -1,0 +1,46 @@
+Java - Introduction to programming : 
+
+    Topics List : 
+        1. What is Code ? 
+        2. Input - output , Variables and DataTypes
+        3. Conditional Statements 
+        4. Loops
+        5. All about patterns
+        6. Methods/Functions
+        7. Space and Time Complexity
+        8. Arrays
+        9. 2D Arrays
+        10. String
+        11. String Builder
+        12. Bit Manipulation
+
+JDK(Java Development Kit) includes JRE(Java Runtime Environment) and Development tools ; and JRE includes JVM(Java Virtual Machine) and Libraries . 
+
+    Question : How is my code running ? 
+        1. Compilation : 
+            SourceCode (.java) ---> Compiler ---> byte code (.class)    // you can run the byte code on any system until and unless JDK is installed in that machine . That's why it is a very portable language .
+
+        2. Execution :  
+            Byte Code (.class) ---> JVM ---> Native Code 
+
+Code Components : 
+
+1. Function : 
+    void main() {
+        task1......
+        task2......
+    }
+
+2. Class : 
+    class FirstClass {
+        void print() {
+            task1....
+            task2....
+            task3....
+        }
+        void main() {
+            task1....
+            task2....
+        }
+    }
+
