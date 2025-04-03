@@ -1,0 +1,74 @@
+Today In this video we will tlak about : 
+    1. if , else
+    2. else if
+    3. Switch
+    4. break
+    
+    These all are keywords in Java . (Means there are specific meaning of each keyword and can't use the exact keyword as variable name)
+
+
+    code snippet for if - else statement : 
+
+        task1....
+        task2....
+        if(Condition) {
+            task.....
+            do something ...
+        }
+        else {
+            do other thing .....
+        }
+
+    code snippet for else-if statement : 
+
+        task1....
+        task2....
+        if(Condition) {
+            task1....
+            do something....
+        }
+        else if(Condition) {
+            task2....
+            do something....
+        }
+        else {
+            task3....
+            do something....
+        }
+
+
+    Here there is a structural change if only one line is there in "if" or "else" block of code . (Basically we can then neglect the curly braces of the statement)
+
+        if(Condition) 
+            one task....
+        else 
+            only task ....
+
+    But if there are more than one task or line of code then it is necessary to give the "{}" (curly braces) to maintain the code . 
+
+    Code snippet of Switch statement : 
+
+        switch (options) {
+            case option1 : 
+                task.....
+                do something....
+                break;
+            case option2 : 
+                task.....
+                do something.....
+                break;
+            default : 
+                task....
+                do something....
+                break;
+        }
+
+
+        here "break" is the keyword which is used to break and get rid of the code block from the immediate block . (case block or if - else block !).
+
+Home work Problem : 
+    Make a calculator using Switch statement . 
+    Have already done !
+    
+
+ 
