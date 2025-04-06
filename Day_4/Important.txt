@@ -1,0 +1,36 @@
+
+Today we will talk about Loops :
+
+    1. "for" Loops
+    2. "while" loop
+    3. "do while" loop
+
+
+    Structure for "for" loop :
+ 
+        for(initialisation ; condition ; updation) {
+            // Do Something....
+        }
+
+    Structure of "while" loop : 
+    
+        initialisation
+        while(condition) {
+            // Do Something...
+            updation
+        }
+
+    Structure for "do - while" loop : 
+
+        initialisation
+        do {
+            // Do Something...
+            updation
+        }
+        while(condition)
+
+    // Here "for" loop and "while" loop working is exactly same under any conditions , but "do - while" loop works slightly differently . 
+    // In "do - while" loop we will execute the statement atleast once ; no matter the condition is true or false . but from the 2nd iteration , we will check the condition and then we will proceed .
+
+
+
