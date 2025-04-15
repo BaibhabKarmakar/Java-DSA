@@ -1,0 +1,19 @@
+Today we will learn about functions : 
+    Functions are some block of codes that can perform a specific task when called by main function() . 
+
+        input -> Function() -> output . 
+
+        The structure of the code to define a function in java is : 
+            returnType functionName(type arg1 , type arg2,....) {
+                // do something....
+                // do task1 ....
+                // do task2 ....
+                return something in the given datatype if return type is not void . 
+            }
+
+    Here what actually happens in memory of the computer while we are calling a function from main function() ?
+
+        It actually froms a stack , at the lowest level the main() and upper from that the function called by main() and so on . 
+
+Lastly ; What are the differences between functions and methods ?
+    we can call a function directly but methods can only called by the object of a class . 
